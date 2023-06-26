@@ -1,0 +1,39 @@
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  text-align: center;
+}
+
+.register p {
+  color: #aaa;
+  margin-bottom: 1em;
+}
+
+.register input {
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+.register .error {
+  color: red;
+  margin-top: 0.5em;
+}
+
+@media (max-width: 600px) {
+
+  .register h1 {
+    font-size: 22px;
+  }
+
+  .register p {
+    font-size: 15px;
+  }
+  
+  .register input {
+    width: 100%;
+  }
+}

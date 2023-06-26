@@ -1,0 +1,38 @@
+.create_post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  text-align: center;
+}
+
+.create_post h2 {
+  font-size: 2.2em;
+}
+
+.create_post p {
+  color: #aaa;
+  margin-bottom: 2em;
+}
+
+.create_post textarea {
+  height: 50px;
+  width: 500px;
+  resize: none;
+}
+
+@media (max-width: 600px) {
+
+  .create_post h2 {
+    font-size: 22px;
+  }
+
+  .create_post p {
+    font-size: 14px;
+  }
+
+  .create_post textarea {
+    width: 90%; 
+  }
+}
