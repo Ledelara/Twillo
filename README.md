@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+<p align="center"> Seja bem - vindo(a) ao Twillo! </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do projeto
+* O Twillo é uma plataforma online de posts de usuários. O possui a sua essência semelhante às redes sociais como Twitter e Facebook onde o usuário faz o post em texto e tem a opção de adicionar uma imagem ao mesmo.
 
-## Available Scripts
+  ## HOME
+* A página Home é onde o usuário poderá ver os posts dos outros usuários cadastrados na plataforma Twillo. A página possui a função de exibir as informações atreladas ao post do usuário, sendo a parte textual e a imagem se possuir.
 
-In the project directory, you can run:
+![image](https://github.com/Ledelara/Twillo/assets/122060742/653ef6c3-7dd2-4fe9-b3f2-5afd5e9265f8)
 
-### `npm start`
+* Ao clicar no botão "Ver mais" o usuário será direcionado à página individual do post podendo visualizá-lo de forma isolada.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://github.com/Ledelara/Twillo/assets/122060742/72625cd8-68a1-4be1-83b7-0b12118021a8)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Login 
 
-### `npm test`
+* Na página Entrar o usuário pode efetuar o login da sua conta informando e-mail e senha que ficam salvos no banco de dados do Firebase. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/Ledelara/Twillo/assets/122060742/2a0a0a66-f590-44ce-b2ee-8b6212733c63)
 
-### `npm run build`
+## Cadastrar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Em Cadastrar é onde o novo usuário irá criar o seu login, sendo necessário informar o seu nome, e-mail, senha e confirmação de senha. Esses dados serão enviados e salvos no Firebase.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://github.com/Ledelara/Twillo/assets/122060742/7165ed19-3d3f-4e4f-8140-64a547243b57)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Novo Post
 
-### `npm run eject`
+* A página Novo Post é onde o usuário irá inserir o conteúdo textual e URL da imagem caso queira. Após isso as informações são enviadas ao Firebase e a postagem será exibida para os outros usuários na página Home.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://github.com/Ledelara/Twillo/assets/122060742/fed5dbbd-95bd-4889-a326-dbe542242894)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dashboard
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Em Dashboard é onde o usuário pode ver e gerenciar os seus posts no Twillo tendo a opção de ler, editar e excluir.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://github.com/Ledelara/Twillo/assets/122060742/1d7a1e6c-560b-4230-aa5d-c72d99b1e89f)
 
-## Learn More
+## Editar Post
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Ao clicar no botão "Editar" o usuário será direcionado à página de edição de post, onde ele pode alterar qualquer informação da postagem selecionada. Após a edição basta salvar e a postagem atualizada será exibida na Home.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://github.com/Ledelara/Twillo/assets/122060742/e90c6ade-41db-4590-b251-66dd13fe5d89)
 
-### Code Splitting
+## Tecnologias utilizadas no desenvolvimento do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* ReactJS
+* React Router Dom
+* Firebase
+* HTML
+* CSS
+  
